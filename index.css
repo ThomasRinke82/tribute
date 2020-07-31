@@ -1,0 +1,56 @@
+body {
+}
+
+.head_class {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 0px;
+  margin-left: -10px;
+}
+
+.head_class a:link {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.navbar {
+  margin-top: 30px;
+}
+
+#navbar ul {
+  list-style: none;
+  font-size: 2vw;
+}
+
+#navbar ul li {
+  display: inline;
+  margin: 2vw;
+}
+
+.head_title {
+  font-size: 3vw;
+  font-family: ;
+}
+
+#head_title h1 {
+}
+
+#video_gandhi {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: black;
+  z-index: -1;
+  filter: opacity(40%);
+}
+
+#placeholder_header {
+  height: 500px;
+}
